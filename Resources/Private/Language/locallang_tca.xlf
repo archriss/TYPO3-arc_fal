@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2016-06-17T10:37:20Z"
+          product-name="arc_fal">
+        <header/>
+        <body>
+            <trans-unit id="sys_file_reference.tx_arcfal_loop">
+                <source>Loop playing</source>
+            </trans-unit>
+            <trans-unit id="sys_file_reference.tx_arcfal_muted">
+                <source>Muted playback</source>
+            </trans-unit>
+            <trans-unit id="sys_file_metadata.tx_arcfal_transcript">
+                <source>Transcript</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
