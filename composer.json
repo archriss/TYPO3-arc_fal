@@ -11,6 +11,11 @@
       "extension-key": "arc_fal"
     }
   },
+  "autoload": {
+    "psr-4": {
+      "Archriss\\ArcFal\\": "Classes/"
+    }
+  },
   "authors": [
     {
       "name": "Christophe Monard",

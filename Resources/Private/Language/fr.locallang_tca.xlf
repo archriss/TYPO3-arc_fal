@@ -12,6 +12,14 @@
                 <source>Muted playback</source>
                 <target state="translated">Lecture silencieuse</target>
             </trans-unit>
+            <trans-unit id="sys_file_reference.tx_arcfal_force_image_render">
+                <source>Force image render</source>
+                <target state="translated">Forcer le rendu en image</target>
+            </trans-unit>
+            <trans-unit id="sys_file_reference.tx_arcfal_force_image_render.description">
+                <source>Instead of letting media handling (video / audio / iframe), force image output</source>
+                <target state="translated">Au lieu d'utiliser le rendu média (vidéo / audio / iframe), forcer le rendu image</target>
+            </trans-unit>
             <trans-unit id="sys_file_metadata.tx_arcfal_transcript">
                 <source>Transcript</source>
                 <target state="translated">Transcription</target>

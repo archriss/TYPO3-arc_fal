@@ -13,4 +13,5 @@ CREATE TABLE sys_file_reference
 (
     tx_arcfal_loop  tinyint(1) unsigned DEFAULT '0' NOT NULL,
     tx_arcfal_muted tinyint(1) unsigned DEFAULT '0' NOT NULL,
+    tx_arcfal_force_image_render tinyint(1) unsigned DEFAULT '0' NOT NULL,
 );

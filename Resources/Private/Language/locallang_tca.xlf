@@ -10,6 +10,12 @@
             <trans-unit id="sys_file_reference.tx_arcfal_muted">
                 <source>Muted playback</source>
             </trans-unit>
+            <trans-unit id="sys_file_reference.tx_arcfal_force_image_render">
+                <source>Force image render</source>
+            </trans-unit>
+            <trans-unit id="sys_file_reference.tx_arcfal_force_image_render.description">
+                <source>Instead of letting media handling (video / audio / iframe), force image output</source>
+            </trans-unit>
             <trans-unit id="sys_file_metadata.tx_arcfal_transcript">
                 <source>Transcript</source>
             </trans-unit>
