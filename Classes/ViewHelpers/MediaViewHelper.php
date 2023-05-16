@@ -48,12 +48,13 @@ class MediaViewHelper extends CoreMediaViewHelper
      * @param FileInterface $image
      * @param string $width
      * @param string $height
+     * @param string|null $fileExtension
      * @return string Rendered img tag
      */
-    public function renderImage(FileInterface $image, $width, $height)
+    protected function renderImage(FileInterface $image, $width, $height, ?string $fileExtension)
     {
         try {
-            TagRenderUtility::imageTagBuild($this->tag, $image, $width, $height, $this->arguments);
+            TagRenderUtility::imageTagBuild($this->tag, $image, $width, $height, $fileExtension, $this->arguments);
         } catch (\UnexpectedValueException $e) {
             // thrown if a file has been replaced with a folder
             throw new Exception($e->getMessage(), 1509741912, $e);

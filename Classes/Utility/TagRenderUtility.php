@@ -11,7 +11,7 @@ use TYPO3Fluid\Fluid\Core\ViewHelper\TagBuilder;
 
 class TagRenderUtility implements SingletonInterface
 {
-    public static function imageTagBuild(TagBuilder &$tag, FileInterface $image, $width, $height, array $options = [])
+    public static function imageTagBuild(TagBuilder &$tag, FileInterface $image, $width, $height, ?string $fileExtension, array $options = [])
     {
         $cropString = $options['crop'];
         if ($cropString === null && $image->hasProperty('crop') && $image->getProperty('crop')) {
@@ -29,8 +29,8 @@ class TagRenderUtility implements SingletonInterface
             'maxHeight' => $options['maxHeight'],
             'crop' => $cropArea->isEmpty() ? null : $cropArea->makeAbsoluteBasedOnFile($image),
         ];
-        if (!empty($options['fileExtension'] ?? '')) {
-            $processingInstructions['fileExtension'] = $options['fileExtension'];
+        if (!empty($fileExtension)) {
+            $processingInstructions['fileExtension'] = $fileExtension;
         }
         $imageService = self::getImageService();
         $processedImage = $imageService->applyProcessingInstructions($image, $processingInstructions);

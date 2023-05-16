@@ -3,7 +3,7 @@
   "description": "Arc Fal - File Abstraction Layer overrides",
   "type": "typo3-cms-extension",
   "require": {
-    "typo3/cms-core": "^9.5 || ^10.4 || ^11.5"
+    "typo3/cms-core": "^11.5"
   },
   "license": "GPL-2.0",
   "extra": {
