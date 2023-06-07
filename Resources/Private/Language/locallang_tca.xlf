@@ -19,6 +19,15 @@
             <trans-unit id="sys_file_metadata.tx_arcfal_transcript">
                 <source>Transcript</source>
             </trans-unit>
+            <trans-unit id="sys_file_metadata.tx_arcfal_transcript.description">
+                <source>Allowed extension : txt</source>
+            </trans-unit>
+            <trans-unit id="sys_file_metadata.tx_arcfal_transcript_rte">
+                <source>Transcript (text format)</source>
+            </trans-unit>
+            <trans-unit id="sys_file_metadata.tx_arcfal_flipbook_url">
+                <source>Flipbook url</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

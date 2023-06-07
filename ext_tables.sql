@@ -4,6 +4,8 @@
 CREATE TABLE sys_file_metadata
 (
     tx_arcfal_transcript longtext,
+    tx_arcfal_transcript_rte longtext,
+    tx_arcfal_flipbook_url text,
 );
 
 #

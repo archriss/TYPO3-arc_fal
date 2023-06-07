@@ -24,6 +24,18 @@
                 <source>Transcript</source>
                 <target state="translated">Transcription</target>
             </trans-unit>
+            <trans-unit id="sys_file_metadata.tx_arcfal_transcript.description">
+                <source>Allowed extension : txt</source>
+                <target state="translated">Extension autorisé : txt</target>
+            </trans-unit>
+            <trans-unit id="sys_file_metadata.tx_arcfal_transcript_rte">
+                <source>Transcript (text format)</source>
+                <target state="translated">Transcription (format texte)</target>
+            </trans-unit>
+            <trans-unit id="sys_file_metadata.tx_arcfal_flipbook_url">
+                <source>Flipbook url</source>
+                <target state="translated">Url de feuilletage</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
